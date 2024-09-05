@@ -1,0 +1,1449 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.main {
+    width: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lifeline-navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.lifeline-navbar-sub {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #008FF8;
+    justify-content: center;
+}
+
+.sub-nav {
+    height: 28.8461%;
+    width: 1435px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lifeline-navbar-main {
+    height: 69.871%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px 0px #AEDDFF;
+
+}
+
+.address {
+    height: 28.846%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.left {
+    height: 55.55%;
+    width: 59.37282%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.add {
+    height: 96%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.52px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.time {
+    height: 96%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right {
+    height: 96%;
+    width: 21.254355%;
+    display: flex;
+    align-items: end;
+
+}
+
+.email-phone {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email {
+    height: 24px;
+    width: 138px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.phone {
+    height: 24px;
+    width: 138px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-nav {
+    height: 109px;
+    width: 1435px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mainnav-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 18.39721%;
+    height: 77.064220%;
+
+}
+
+.logo img {
+    height: 84px;
+    width: 264px;
+}
+
+.nav-content {
+    height: 46px;
+    width: 1053px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 27px;
+}
+
+li {
+    list-style: none;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #008FF8;
+}
+
+.home {
+    height: 22px;
+    width: 52px;
+}
+
+.home a {
+    color: #8DC641;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: left;
+}
+
+.about-hospital {
+    height: 24px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropbtn {
+    border: none;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #008FF8;
+    background: none;
+}
+
+.insurance-desks {
+    height: 22px;
+    width: 145px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #008FF8;
+}
+
+.dropdown-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 125px;
+}
+
+.about-hospital button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Management {
+    height: 122px;
+    width: 278px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 20px;
+}
+
+#Management a {
+    height: 42px;
+    width: 240px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: #008FF8;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.department {
+    width: 145px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.department button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Cardiology {
+    height: 430px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 20px;
+
+}
+
+#Cardiology a {
+    height: 42px;
+    width: 240px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: left;
+    padding-left: 5px;
+
+}
+
+.career {
+    height: 22px;
+    width: 70px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    animation-duration: 0ms;
+}
+
+.contact {
+    height: 22px;
+    width: 70px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 27px;
+}
+
+.appoinment-button button {
+    height: 46px;
+    width: 138px;
+    border: none;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #008FF8;
+    border: 1px solid #008FF8;
+    border-radius: 8px;
+    display: flex;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    animation-timing-function: ease-in;
+    animation-duration: 300ms;
+}
+
+.search {
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-content :hover {
+    color: #8DC641;
+}
+
+.about-hospital :hover path {
+    stroke: #8DC641;
+}
+
+.department :hover path {
+    stroke: #8DC641;
+}
+
+.about-hospital:hover .dropdown-content {
+    display: flex;
+
+}
+
+.department:hover .dropdown-content {
+    display: flex;
+}
+
+.dropdown-content a:hover {
+    background-color: #008FF8;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border-width: 40px;
+}
+
+.appoinment-button :hover {
+    color: #FFFFFF;
+    background-color: #008FF8;
+}
+
+/* hero section */
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-color: #AEDDFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 154px;
+}
+
+.hero-section {
+    height: 643px;
+    width: 1435px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text {
+    height: 99.8444790%;
+    width: 50.73170%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 21px;
+
+}
+
+.your-health {
+    height: 23.9875%;
+    width: 75.2747%;
+}
+
+.your-health h1 {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77.45px;
+    text-align: left;
+    color: #171717;
+}
+
+#para {
+    width: 100%;
+    height: 13.70%;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #171717;
+}
+
+.book-contact {
+    width: 43.543%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.book-appoinment {
+    width: 181px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #008FF8;
+}
+
+#book {
+    width: 163px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    border: none;
+    text-align: center;
+    background-color: #008FF8;
+    color: #FFFFFF;
+}
+
+.contact-us {
+    width: 121px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 143, 248, 1);
+}
+
+.contact-us #con {
+    width: 96px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    border: none;
+    text-align: center;
+    color: #008FF8;
+    background: none;
+}
+
+.right-image {
+    height: 100%;
+    width: 48.153310%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.shadow {
+    height: 242px;
+    width: 254px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 0;
+    left: 550px;
+    top: 80px;
+
+}
+
+.shaow-effect {
+    height: 242px;
+    width: 254px;
+    border-radius: 50%;
+    background-color: #008FF8;
+    filter: blur(90px);
+}
+
+.doctor-img {
+    width: 95.171%;
+    height: 100%;
+}
+
+.doctor-img img {
+    width: 611px;
+    height: 642px;
+}
+
+.dr-text {
+    width: 46.4544%;
+    height: 46.10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    left: 370px;
+    top: 220px;
+}
+
+.dr-text-box {
+    width: 100%;
+    height: 40.20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 33px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 50px 0px #0000001A;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+@keyframes example {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 170px
+    }
+
+    100% {
+        top: 0px;
+    }
+
+}
+.dr-anand {
+    width: 271px;
+    height: 89px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-dr-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.dr-anand-text {
+    width: 163px;
+    height: 41px;
+
+}
+
+.dr-anand-text h1 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: left;
+    color: #171717;
+}
+
+.dr-anand-text p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #858585;
+}
+
+.available-text {
+    width: 51px;
+    height: 15px;
+}
+
+.available-text a {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    color: #8DC641;
+    text-decoration: none;
+}
+
+.right-dr-text img {
+    width: 84px;
+    height: 84px;
+}
+
+.book-appoinment:hover {
+    background-color: #8DC641;
+}
+
+.book-appoinment:hover #book {
+    background-color: #8DC641;
+}
+
+.contact-us:hover {
+    background-color: #008FF8;
+}
+
+.contact-us:hover #con {
+    background-color: #008FF8;
+    color: #ffffff;
+}
+
+/* all-in-one-worksite-health-solution */
+
+.health-solution{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.all-in-one-worksite-health-solution{
+    width: 1435px;
+    height: 728px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.all-in-one{
+    height: 73.4890%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-all-in-one{
+    height: 98.50%;
+    width: 43.484320%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.abt-lfn-hospital{
+    height: 4.1745%;
+    width: 31.730%;
+}
+.abt-lfn-hospital h6{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #008FF8;    
+}
+.abt-lfn-hospiatl-heading{
+    height: 29.2220%;
+    width: 96.4743%;
+}
+.abt-lfn-hospiatl-heading h1{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77.45px;
+    text-align: left;
+    color: #171717;     
+}
+.abt-lfn-hospital-experience{
+    height: 4.1%;
+    width: 60.41%;
+}
+
+.abt-lfn-hospital-experience h6{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #008FF8;    
+}
+.abt-lfn-hospital-paragraph{
+    height: 23.90%;
+    width: 100%;
+}
+.abt-lfn-hospital-paragraph p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #171717;    
+}
+.abt-lfn-hospital-experience-customer{
+    height: 20.6831%;
+    width: 69.71%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.years-experience{
+    height: 109px;
+    width: 35.844%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.years-experience img{
+    height: 77px;
+    width: 81px;
+}
+.years-experience  h6{
+    height: 22px;
+    width: 157px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #171717;    
+}
+.happy-cutomers{
+    height: 109px;
+    width: 34.931% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.happy-cutomers img{
+    height: 77px;
+    width: 138px;
+}
+.happy-cutomers  h6{
+    height: 22px;
+    width: 157px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #171717;    
+}
+.right-all-in-one{
+    height: 100%;
+    width: 47.1080%;
+}
+.right-all-in-one img{
+    height: 100%;
+    width: 100%;
+}
+/* lifeline-hospital-services */
+
+.lifeline-hospital-services{
+    height: 100%;
+    width: 100%;
+    background-color: #D2ECFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.life-line-service{
+    height: 1109px;
+    width: 1435px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.life-line-service-main{
+    height: 82.8674%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.excellence-our{
+    height: 2.39%;
+    width: 16.37630%;
+}
+.excellence-our h6{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #008FF8;    
+}
+.life-line-heading-service{
+    height: 8.3786%;
+    width: 53.7282%;
+}
+.life-line-heading-service h1{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77.45px;
+    text-align: left;
+    color: #171717;    
+}
+span{
+    color: #008FF8;
+}
+.cards-section{
+    height: 80.8487%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 41px;
+}
+.card1{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1-content{
+    height: 260px;
+    width: 276px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.cardiology-img{
+    height: 84px;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D2ECFF;
+    border-radius: 50%;
+}
+.cardiology-img img{
+    height: 56px;
+    width:  40.61px;
+}
+.cardiology-text{
+    height: 29px;
+    width: 100%;
+}
+.cardiology-text h6{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    color: #171717;    
+}
+hr{
+    width: 277px;
+   border: 1px solid #858585;
+   /* color: #858585; */
+     
+}
+.cardiology-para{
+    height: 66px;
+    width: 276px;
+}
+.cardiology-para p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #171717;
+} 
+.card2{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card2-content{
+    height: 260px;
+    width: 276px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Neurology-img{
+    height: 84px;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D2ECFF;
+    border-radius: 50%;
+}
+.Neurology-img img{
+    height: 56px;
+    width:  40.61px;
+}
+.Neurology-text{
+    height: 29px;
+    width: 100%;
+}
+.Neurology-text h6{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    color: #171717;    
+}
+.Neurology-para{
+    height: 66px;
+    width: 276px;
+}
+.Neurology-para p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #171717;
+} 
+.card2{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card2-content{
+    height: 260px;
+    width: 276px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Neurology-img{
+    height: 84px;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D2ECFF;
+    border-radius: 50%;
+}
+.Neurology-img img{
+    height: 56px;
+    width:  40.61px;
+}
+.Neurology-text{
+    height: 29px;
+    width: 100%;
+}
+.Neurology-text h6{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    color: #171717;    
+}
+.Neurology-para{
+    height: 66px;
+    width: 276px;
+}
+.Neurology-para p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #171717;
+} 
+.card3{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card3-content{
+    height: 260px;
+    width: 276px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Orthopaedics-img{
+    height: 84px;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D2ECFF;
+    border-radius: 50%;
+}
+.Orthopaedics-img img{
+    height: 56px;
+    width:  40.61px;
+}
+.Orthopaedics-text{
+    height: 29px;
+    width: 100%;
+}
+.Orthopaedics-text h6{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    color: #171717;    
+}
+.Orthopaedics-para{
+    height: 66px;
+    width: 276px;
+}
+.Orthopaedics-para p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #171717;
+} 
+.card4{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card4-content{
+    height: 260px;
+    width: 276px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Dental-img{
+    height: 84px;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D2ECFF;
+    border-radius: 50%;
+}
+.Dental-img img{
+    height: 56px;
+    width:  40.61px;
+}
+.Dental-text{
+    height: 29px;
+    width: 100%;
+}
+.Dental-text h6{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    color: #171717;    
+}
+.Dental-para{
+    height: 66px;
+    width: 276px;
+}
+.Dental-para p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #171717;
+} 
+.card1:hover{
+    background-color: #008FF8;
+}
+.card1:hover h6{
+    color: #ffffff;
+}
+.card1:hover p{
+    color: #ffffff;
+}
+.card1:hover .cardiology-img{
+    background-color: #ffffff;
+}
+.card1:hover hr{
+   border-color: #ffffff;
+}
+.card2:hover{
+    background-color: #008FF8;
+}
+.card2:hover h6{
+    color: #ffffff;
+}
+.card2:hover p{
+    color: #ffffff;
+}
+.card2:hover .Neurology-img{
+    background-color: #ffffff;
+}
+.card2:hover hr{
+   border-color: #ffffff;
+}
+.card3:hover{
+    background-color: #008FF8;
+}
+.card3:hover h6{
+    color: #ffffff;
+}
+.card3:hover p{
+    color: #ffffff;
+}
+.card3:hover .Orthopaedics-img{
+    background-color: #ffffff;
+}
+.card3:hover hr{
+   border-color: #ffffff;
+}
+.card4:hover{
+    background-color: #008FF8;
+}
+.card4:hover h6{
+    color: #ffffff;
+}
+.card4:hover p{
+    color: #ffffff;
+}
+.card4:hover .Dental-img{
+    background-color: #ffffff;
+}
+.card4:hover hr{
+   border-color: #ffffff;
+}
+
+/* blue-box-section */
+
+.blue-box-section{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue-box{
+    height: 389px;
+    width: 1435px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue-container{
+    height: 65.2956%;
+    width: 100%;
+    background-color: #008FF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue-box-contain{
+    height: 41.33%;
+    width: 71.84%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.professional-dr{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.professional-dr h1{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77.45px;
+    text-align: left;
+    color: #FFFFFF;    
+}
+.professional-dr p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #ffffff;    
+}
+.satiedfied-client{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #ffffff ;
+    border-right: 1px solid #ffffff;
+}
+.satiedfied-client h1{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77.45px;
+    text-align: left;
+    color: #ffffff;    
+}
+.satiedfied-client p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #ffffff    
+}
+.best-medicine{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.best-medicine h1{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77.45px;
+    text-align: left;
+    color: #ffffff;    
+}
+.best-medicine p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #ffffff;    
+}
+/* team-doctor */
+
+.team-doctor{
+    height: 100%;
+    width: 100%;
+    background-color: #AEDDFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-doctor-container{
+    height: 573px;
+    width: 1435px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #AEDDFF;
+}
+.team-doctor-text{
+    height: 3.83%;
+    width: 100%;
+}
+.team-doctor-text h6{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #008FF8;    
+}
+.meet-our-specialist{
+    height: 13.4380%;
+    width: 41.7421%;
+}
+.meet-our-specialist h1{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77.45px;
+    text-align: left;
+    color: #171717;    
+}
+.meet-our-specialist span{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77.45px;
+    text-align: left;
+    color: #008FF8;    
+}
+.doctor-card{
+    height: 69.45%;
+    width: 100%;
+    display: flex;
+    gap: 42px;
+    background-color: #FAFAFA;
+}
+.dr-sandhya{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 100px 0px #0000001A;
+
+}
+.dr-sandhya img{
+    height: 264px;
+    width: 260px;
+}
+.dr-down-text {
+    height: 63px;
+    width: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+.dr-down-text h2{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    color: #171717;    
+}
+.dr-down-text h6{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    color: #858585;    
+}
+.dr-ulhas{
+    flex: 1;
+    background-color: #008FF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 100px 0px #0000001A;
+
+}
+.dr-ulhas img{
+    height: 264px;
+    width: 260px;
+}
+
+.dr-maria{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 100px 0px #0000001A;
+
+}
+.dr-maria img{
+    height: 264px;
+    width: 260px;
+    
+}
+.dr-makrand{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 100px 0px #0000001A;
+
+}
+.dr-makrand img{
+    height: 264px;
+    width: 260px;
+}
